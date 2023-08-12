@@ -23,8 +23,8 @@ const App = () => {
   return(
     <div className= { darkMode ? " dark_mode app " : "app" }  >
       <h1>Hello React!</h1>
-      <button className="btn" onClick={modeToggler} > Click </button>
-      <h1> { darkMode ? "🌜 dark" : "🌞 light" } </h1>
+      <button className="btn" onClick={modeToggler} > { darkMode ? "🌜" : "🌞" } </button>
+      <h1> { darkMode ? "dark" : "light" } </h1>
     </div>
   )
 }
